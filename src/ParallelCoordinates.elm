@@ -88,7 +88,7 @@ getCsv x =
         |> List.map
             (\data ->
                 Http.get
-                    { url = "https://raw.githubusercontent.com/Fortuna1996/LungCancerPrediction/main/" ++ data
+                    { url = "https://github.com/DatDudeDanni/InfoVisTest/blob/main/cancer%20patient%20data%20sets%20update2.csv"
                     , expect = Http.expectString x
                     }
             )
